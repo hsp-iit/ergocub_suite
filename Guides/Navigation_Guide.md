@@ -5,6 +5,8 @@ The navigation stack needs the following components (in the `src` folder inside 
 3) [pointcloud_to_laserscan](https://github.com/ros-perception/pointcloud_to_laserscan).
 
 ## Install
+This code is located on the **laptop**.
+
 You have two main methods to install and use the ergocub_navigation stack:
 1) Use the docker and follow the instructions on [this repo](https://github.com/SimoneMic/docker_ergocub/tree/ergoCubSN001). **This is the preferred method!**.
 2) Setup from source by creating a `ros2_workspace` folder inside the `hsp` folder located in `/usr/local/src/robot/hsp`. ([ros2 workspace guide](https://docs.ros.org/en/iron/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html)). Then clone all the previously listed components under the `src` folder, and do `colcon build` in the workspace folder.
